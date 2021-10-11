@@ -85,6 +85,7 @@ namespace ConsoleUtils.Menu
                     case ConsoleKey.Enter:
                         if (!Options[selected].Action(this))
                         {
+                            ConsoleClear.ClearLine(Options.Count + 2);
                             Console.CursorVisible = true;
                             return selected;
                         }

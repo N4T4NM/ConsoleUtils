@@ -48,6 +48,7 @@
     <Compile Include="Menu\ConsoleMenuSettings.cs" />
     <Compile Include="Menu\MenuColorScheme.cs" />
     <Compile Include="Menu\Options\MenuCheckbox.cs" />
+    <Compile Include="Menu\Options\MenuDropdown.cs" />
     <Compile Include="Menu\Options\MenuOption.cs" />
     <Compile Include="Menu\Options\MenuRadioButton.cs" />
     <Compile Include="Program.cs" />
